@@ -4,8 +4,8 @@
 }
 
 .post-title {
-    margin-bottom: 2px;
-    font-size: 40px;
+    margin-bottom: 2.5px;
+    font-size: 42px;
 }
 
 .post-description {
@@ -16,7 +16,7 @@
 .post-meta,
 .breadcrumbs {
     color: var(--secondary);
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -45,28 +45,28 @@
 
 .post-content h1 {
     margin: 40px auto 32px;
-    font-size: 40px;
+    font-size: 42px;
 }
 
 .post-content h2 {
     margin: 32px auto 24px;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .post-content h3 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .post-content h4 {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .post-content h5 {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .post-content h6 {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .post-content a,
@@ -83,7 +83,8 @@
 }
 
 .post-content del {
-    text-decoration: line-through;
+    text-decoration: none;
+    background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50%/1px 1px repeat-x;
 }
 
 .post-content dl,
@@ -138,11 +139,11 @@
     min-width: 80px;
     padding: 12px 8px;
     line-height: 1.5;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1.5px solid var(--border);
 }
 
 .post-content table th {
-    font-size: 14px;
+    font-size: 18px;
     text-align: start;
 }
 
@@ -193,7 +194,7 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    font-size: 12px;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
@@ -242,7 +243,7 @@
 
 .post-content figure > figcaption {
     color: var(--primary);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     margin: 8px 0 16px;
 }
@@ -315,8 +316,8 @@
     padding-inline-start: 14px;
     padding-inline-end: 14px;
     color: var(--secondary);
-    font-size: 14px;
-    line-height: 34px;
+    font-size: 12px;
+    line-height: 36px;
     background: var(--code-bg);
 }
 

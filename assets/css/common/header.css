@@ -23,8 +23,8 @@
 }
 
 .logo a {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 750;
 }
 
 .logo a img, .logo a svg {
@@ -32,12 +32,12 @@
     vertical-align: middle;
     pointer-events: none;
     transform: translate(0, -10%);
-    border-radius: 6px;
+    border-radius: 8px;
     margin-inline-end: 8px;
 }
 
 button#theme-toggle {
-    font-size: 26px;
+    font-size: 28px;
     margin: auto 4px;
 }
 

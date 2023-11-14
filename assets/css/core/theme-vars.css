@@ -3,18 +3,18 @@
     --content-gap: 20px;
     --nav-width: 1024px;
     --main-width: 720px;
-    --header-height: 60px;
-    --footer-height: 60px;
-    --radius: 8px;
-    --theme: rgb(255, 255, 255);
+    --header-height: 80px;
+    --footer-height: 80px;
+    --radius: 10px;
+    --theme: rgb(252, 255, 252);
     --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
+    --primary: rgb(50, 70, 90);
+    --secondary: rgb(88, 113, 125);
+    --tertiary: rgb(255, 166, 158);
+    --content: rgb(25, 25, 50);
     --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+    --code-bg: rgb(240, 255, 240);
+    --border: rgb(238, 244, 238);
 }
 
 .dark {
