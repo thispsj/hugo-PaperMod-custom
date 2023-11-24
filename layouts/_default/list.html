@@ -96,12 +96,18 @@
     </a>
     {{- end }}
     {{- if $paginator.HasNext }}
+    {{- if .IsHome }}
+    <a class="read_more" href="/posts">
+      All Posts&nbsp;
+    </a>
+    {{- else }}
     <a class="next" href="{{ $paginator.Next.URL | absURL }}">
       {{- i18n "next_page" }}&nbsp;
       {{- if (.Param "ShowPageNums") }}
       {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
       {{- end }}&nbsp;»
     </a>
+    {{- end }}
     {{- end }}
   </nav>
 </footer>

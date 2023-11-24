@@ -23,6 +23,14 @@
     padding: 0 16px;
 }
 
+.read_more {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+   }
+
 .pagination .next {
     margin-inline-start: auto;
 }
